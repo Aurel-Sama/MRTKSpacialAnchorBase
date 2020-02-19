@@ -1,0 +1,19 @@
+<Project>
+  <PropertyGroup>
+    <MSBuildForUnityVersion>0.8.3</MSBuildForUnityVersion>
+    
+    <MSBuildForUnityGeneratedOutputDirectory>C:\Users\user\Downloads\MRTK.Examples.Hub_v2.3.0_HoloLens1_x86\MRTKExamplesHub_2.3.0.0_Master_Test\Spatial anchor\MSBuild\Projects</MSBuildForUnityGeneratedOutputDirectory>
+    <UnityProjectAssetsPath>C:\Users\user\Downloads\MRTK.Examples.Hub_v2.3.0_HoloLens1_x86\MRTKExamplesHub_2.3.0.0_Master_Test\Spatial anchor\Assets</UnityProjectAssetsPath>
+    <MSBuildForUnityDefaultOutputPath>$(UnityProjectAssetsPath)\Dependencies</MSBuildForUnityDefaultOutputPath>
+    
+    <UnityCurrentPlatform>WSA</UnityCurrentPlatform>
+    <UnityCurrentTargetFramework>net46</UnityCurrentTargetFramework>
+    
+    <UnityMajorVersion>2019</UnityMajorVersion>
+    <UnityMinorVersion>2</UnityMinorVersion>
+  </PropertyGroup>
+  
+  <Target Name="_RemoveOutputDirectory" AfterTargets="Clean">
+    <RemoveDir Directories="$(OutputPath)" />
+  </Target>
+</Project>
